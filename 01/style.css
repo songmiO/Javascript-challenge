@@ -14,7 +14,16 @@ body {
   list-style: none;
 }
 
+.second-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .container {
+  margin: 100px 50px;
   text-align: center;
-  /* background-color: #2bc10b; */
+}
+
+.color-name {
+  margin-bottom: 50px;
 }
