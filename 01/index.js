@@ -1,3 +1,5 @@
+const colors = [];
+
 document
   .getElementsByClassName('change-btn')[0]
   .addEventListener('click', function () {

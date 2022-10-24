@@ -9,9 +9,16 @@ body {
 
 .nav-list {
   display: flex;
+  padding: 20px;
+  /* border-bottom: 1px solid #808080; */
+  box-shadow: 0 5px 10px 0 #808080;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
+}
+
+.first-menu {
+  color: #49a6e9;
 }
 
 .second-menu a {
@@ -19,11 +26,22 @@ body {
   color: #000000;
 }
 
+.second-menu a:hover {
+  color: #49a6e9;
+}
+
 .container {
   margin: 100px 50px;
+  background-color: #f1f5f8;
   text-align: center;
 }
 
 .color-name {
   margin-bottom: 50px;
+}
+
+.change-btn {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 20px;
 }
