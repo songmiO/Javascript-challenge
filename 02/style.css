@@ -17,15 +17,16 @@ body {
   text-align: center;
 }
 
-.container h1 {
+.counter {
   margin-bottom: 15px;
   font-size: 80px;
 }
 
-.container span {
+.counter-num {
   display: block;
   margin-bottom: 20px;
   font-size: 100px;
+  font-weight: 700;
 }
 
 .btn {
